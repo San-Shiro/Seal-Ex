@@ -4,9 +4,9 @@
 
 # SealEx
 
-### Video/Audio Downloader for Android
+### Video/Audio Downloader for Android with Automation capabilities
 
-> **Note:** This is an independent, maintained fork of the original [Seal](https://github.com/JunkFood02/Seal) app by San-Shiro. It features a standalone app namespace (`com.sanshiro.sealex`) and an independent GitHub-based update channel, allowing it to be installed alongside the original Seal.
+> **Note:** SealEx is a fork of the original [Seal](https://github.com/JunkFood02/Seal) application. Our goal is to extend Seal's excellent core downloader with the ability to create automation
 
 English
 &nbsp;&nbsp;| &nbsp;&nbsp;
@@ -65,10 +65,6 @@ English
 </div>
 
 <br>
-
-## 🌲 Original Repository & SealEx Fork
-
-SealEx is an actively maintained, independent fork of the original [Seal](https://github.com/JunkFood02/Seal) application. Our goal is to extend Seal's excellent core downloader with robust automation features, modernized infrastructure, and seamless side-by-side installations via our custom namespace.
 
 ## 📖 Features
 - Download videos and audio files from video platforms supported by [yt-dlp](https://github.com/yt-dlp/yt-dlp) (formerly youtube-dl).
