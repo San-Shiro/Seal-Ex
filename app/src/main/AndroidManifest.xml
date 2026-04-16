@@ -80,10 +80,12 @@
         <!-- External download service: any app can bind to request downloads -->
         <service
             android:name=".external.ExternalDownloadService"
-            android:enabled="true"
+            android:enabled="false"
             android:exported="true"
             android:foregroundServiceType="specialUse">
             <intent-filter>
+                <action android:name="com.sanshiro.sealEx.action.EXTERNAL_DOWNLOAD" />
+                <action android:name="com.sanshiro.sealex.action.EXTERNAL_DOWNLOAD" />
                 <action android:name="com.junkfood.seal.action.EXTERNAL_DOWNLOAD" />
             </intent-filter>
         </service>

@@ -47,7 +47,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.junkfood.seal"
+        applicationId = "com.sanshiro.sealex"
         minSdk = 24
         targetSdk = 35
         versionCode = 200_000_150
@@ -154,7 +154,7 @@ android {
     }
     androidResources { generateLocaleConfig = true }
 
-    namespace = "com.junkfood.seal"
+    namespace = "com.sanshiro.sealEx"
 }
 
 ktfmt { kotlinLangStyle() }
