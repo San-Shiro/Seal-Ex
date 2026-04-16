@@ -77,6 +77,17 @@
             android:exported="false"
             android:foregroundServiceType="specialUse" />
 
+        <!-- External download service: any app can bind to request downloads -->
+        <service
+            android:name=".external.ExternalDownloadService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="specialUse">
+            <intent-filter>
+                <action android:name="com.junkfood.seal.action.EXTERNAL_DOWNLOAD" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation"

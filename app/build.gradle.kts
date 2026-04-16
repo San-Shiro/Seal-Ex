@@ -41,7 +41,10 @@ android {
         }
     }
 
-    buildFeatures { buildConfig = true }
+    buildFeatures {
+        buildConfig = true
+        aidl = true
+    }
 
     defaultConfig {
         applicationId = "com.junkfood.seal"
